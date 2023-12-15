@@ -1,56 +1,82 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset='utf-8'>
-        <title>Retail Store</title>
-        <!--normalize css  -->
-        <!-- Web font awesome  -->
-        <link type="icon" sizes="96x96" rel="icon" href="images/logo.png">
-        <meta charset='utf-8'>
-        <title>Retail Store</title>
-        <link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset='utf-8'>
+    <title>Retail Store</title>
+    <!--normalize css  -->
+    <!-- Web font awesome  -->
+    <link type="icon" sizes="96x96" rel="icon" href="images/logo.png">
+    <meta charset='utf-8'>
+    <title>Retail Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup_login_and_contact.css">
 
-    </head>
+</head>
 
-    <body>
-       
-            <!-- Start  Header  -->
-            <header>
-                <div id="sales_bar">
-                    Delivery Express Free And Suits Swim AII For Sale Summer-
-                    OFF 50%! <a id="copy-coupon" onclick="CopyCoupon()"> GET COUPON</a>
+<body>
+
+    <!-- Start  Header  -->
+    <header>
+        <div id="sales_bar">
+            Delivery Express Free And Suits Swim AII For Sale Summer-
+            OFF 50%! <a id="copy-coupon" onclick="CopyCoupon()"> GET COUPON</a>
+        </div>
+        <div class="contanier">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Image Not Found!">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="Contact.html">Contact</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+                </ul>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
-                <div class="contanier">
-                    <a href="#" class="logo">
-                        <img src="images/logo.png" alt="Image Not Found!">
-                    </a>
-                    <nav>
-                        <ul>
-                            <li><a class="active" href="index.html">Home</a></li>
-                            <li><a href="Contact.html">Contact</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="signup.html">SignUp</a></li>
-                        </ul>
-                        <div class="icon">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
-                    </nav>
-                </div>
-            </header>
-            <!-- End Header -->
-            <div class="contanier">
-            <!--             Start body                -->
-            <div style="height: 500px ; background-color: aquamarine;"></div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!--             Start body                -->
+    <div class="contanier">
+        <div class="contact">
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input placeholder="Write Name " type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Write Email" required>
+
+                    <label for="Phone">Phone:</label>
+                    <input placeholder="Write Phone " type="text" id="Phone" name="Phone" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Write Massage" name="message" rows="8" required></textarea>
+
+                    <button>Send Massage</button>
+                </form>
+            </div>
 
             <!--             End    body                -->
-            <div style="height: 500px ; background-color: rgb(255, 255, 127);"></div>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:Retailstore@gamil.com">Retailstore@gamil.com</a></p>
+                <p>Phone: +02 222123223</p>
+                <p>Address: Egypt Cairo </p>
+                <img src="images/log_sign_images/contact.png" alt="Image Not Found!">
 
+            </div>
         </div>
 
-    </body>
-    <script src="javascrept/main.js"></script>
+    </div>
+
+</body>
+<script src="javascrept/main.js"></script>
 
 </html>
