@@ -56,7 +56,8 @@ ul{
 /* End Global Ruls  */
 /* Satrt header  */
 #sales_bar {
-    padding-top: 15px;
+    padding-top: 5px;
+    padding-bottom:5px ;
     text-align: center;
     width: 100%;
     background-color: black;
@@ -72,7 +73,7 @@ ul{
 header{
     width: 100%;
     left: 0;
-    background-color: black;
+    background-color: #FFFFFF;
 }
 header .contanier{
     display: flex;
@@ -97,9 +98,10 @@ header nav ul{
 header nav ul li a{
     display: block;
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-size: 20px;
-    padding: 35px ;
+    padding: 10px 35px 35px 35px;
+
 }
 header nav ul li .active,
 header nav ul li a:hover{
@@ -114,7 +116,7 @@ header nav  .icon{
 }
 header nav  .icon i{
     font-size: 20px;
-    color: white;
+    color: var(--text-color);
     margin: 20px;
 }
 header nav  .icon i:hover{
