@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+
+    <title>Retail Store\Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS style -->
+    <!-- icon -->
+    <link type="icon" sizes="96x96" rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup_login.css">
+
+</head>
+
+<body>
+ <div class="contanier">
+    <header>
+        <div id="sales_bar">
+            Delivery Express Free And Suits Swim AII For Sale Summer- OFF 50%! <a id="copy-coupon" onclick="CopyCoupon()"> GET
+                COUPON</a>
+                
+        </div>
+        <div class="contanier">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Image Not Found!">
+            </a>
+            <nav>
+                <ul>
+                    <li><a  href="index.html" >Home</a></li>
+                    <li><a href="Contact.html" >Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a class="active" href="signup.html" >SignUp</a></li>
+                </ul>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End header -->
+    <div class="con">
+        <div class="signup-container">
+            <form action="/signup" method="post">
+                <h3>Log in account</h3>
+                <p>Enter your details below</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+                <p class="log">Forget password? </p>
+            </form>
+            <div class="signup-image">
+                <img src="images/log_sign_images/Side Image.png" alt="Image">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
