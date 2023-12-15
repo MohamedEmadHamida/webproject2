@@ -125,6 +125,14 @@ header nav  .icon i:hover{
     transform: translateX(5px);
     
 }
+
+
+.section{
+width: 70% ;
+text-align: center;
+margin: auto;
+
+}
 /* End Header */
 
 
