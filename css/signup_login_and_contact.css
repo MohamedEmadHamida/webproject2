@@ -74,3 +74,50 @@ button:hover {
 }
 
 /* End  section */
+/* Contact page */
+.contanier .contact{
+    display: flex;
+}
+.contact-form {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+}
+.contact-info{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+.contact-info h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.contact-info p{
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.contact-info img{
+    width: 200px;
+    margin: 30px 70px;
+}
